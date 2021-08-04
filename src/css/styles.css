@@ -1,0 +1,419 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  color: #06c;
+}
+img {
+  max-width: 100%;
+}
+.white {
+  color: #fff;
+}
+.black {
+  color: #1d1d1f;
+}
+.grey {
+  color: #86868b;
+}
+.top-50 {
+  margin-top: 50px;
+}
+.top-100 {
+  margin-top: 100px;
+}
+.bottom-100 {
+  margin-bottom: 100px;
+}
+.bottom-50 {
+  margin-bottom: 50px;
+}
+.top-150 {
+  margin-top: 150px;
+}
+
+
+
+
+/*First section*/
+.first-hightlight-wrapper {
+  background-image: url("../images/home/iphone_12_updated__jepm2xpxncuy_large_2x.jpg");
+  min-height: 680px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #111;
+}
+.first-hightlight-wrapper .container {
+  padding-top: 50px;
+}
+
+.title-wraper.bold {
+  font-size: 56px;
+}
+
+.links-wrapper ul {
+  list-style: none;
+}
+.product-title {
+  font-weight: 700;
+  font-size: 56px;
+}
+.brief-description {
+  font-size: 2em;
+}
+
+.description-wraper.white {
+  color: #86868b;
+}
+.links-wrapper {
+  padding: 10px 0;
+}
+
+.links-wrapper ul li {
+  display: inline-block;
+  padding-right: 20px;
+}
+.links-wrapper ul li a {
+  color: #06c;
+  text-decoration: none;
+  font-size: 16px;
+}
+.links-wrapper ul li a:hover {
+  color: #000;
+}
+.links-wrapper ul li a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f105";
+  padding-left: 10px;
+}
+
+.description-wrapper {
+  font-size: 26px;
+  padding: 10px 0;
+}
+
+
+/* Second section */
+.second-hightlight-wrapper {
+  background-image: url("../images/home/hero_ipad_pro_non_avail__fcrsmhs4b7ma_large.jpg");
+  min-height: 680px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #86868b;
+  margin-top: 10px;
+  
+}
+
+.second-2-hightlight-wrapper {
+  background-image: url("../image-1/home/iphone_12_pro_us__e5oyysg4k0ya_largetall_2x.jpg");
+  min-height: 680px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 65px 20px;
+  color: #86868b;
+  margin-top: 10px;
+  
+}
+
+.second-2-hightlight-wrapper .title-wraper{
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+  color: white;
+}
+
+.ipod-caption {
+  color: #86868b;
+  font-size: 12px;
+  line-height: 1.33337;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  padding-top: 310px;
+}
+.second-hightlight-wrapper .links-wrapper ul li a:hover {
+  color: #86868b;
+}
+.second-hightlight-wrapper .title-wraper{
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+  color: white;
+}
+.second-hightlight-wrapper .description-wraper{
+  color: #86868b;
+}
+
+
+/* Third section */
+.third-heghlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../images/home/iphone_12_pro.jpg");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  
+}
+.third-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../images/home/promo_imac__crg641tip4q6_large_2x.jpg");
+  background-color: #000;
+  padding-top: 35px;
+  margin: 10px 0 0 0;
+  background-size: cover;
+}
+.links-wrapper.white li a {
+  color: #fff;
+}
+.third-heghlight-wrapper .right-side-wrapper .title-wraper {
+  max-width: 380px;
+}
+.third-heghlight-wrapper .links-wrapper ul li a:hover {
+  color: #86868b;
+}
+.third-heghlight-wrapper .left-side-wrapper .title-wraper{
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.15em;
+  letter-spacing: -0.04em;
+  color: white;
+}
+.third-heghlight-wrapper .right-side-wrapper .title-wraper{
+  font-size: 38px;
+}
+.third-heghlight-wrapper .description-wraper{
+  color: #86868b;
+}
+.third-heghlight-wrapper .price-wrapper{
+  color: #86868b;
+
+}
+
+.right-side-wrapper .title-wraper {
+  max-width: 280px;
+  margin: 0 auto;
+}
+.left-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.left-side-wrapper.col-sm-12.col-md-6{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.right-side-wrapper.col-sm-12.col-md-6{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.right-side-container {
+  min-height: 515px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.left-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.right-side-wrapper {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+
+/*Forth Section*/
+.Forth-heghlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../images/home/promo_watch_series_6.jpg");
+  background-color: #000;
+  background-position: initial;
+  padding-top: 35px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+}
+
+.Forth-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../image-1/promos/tile__change_large.jpg");
+  background-color: #fbfbfd;
+  background-position: bottom;
+  padding-top: 35px;
+  margin: 10px 0 0 0;
+  background-size: initial;
+}
+.Forth-heghlight-wrapper .description-wraper {
+  max-width: 450px;
+  margin: 7px auto;
+}
+
+.Forth-hightlight-wrapper .left-side-wrapper .description-wraper{
+  color: #86868b;
+}
+
+.Forth-heghlight-wrapper .links-wrapper ul li a:hover {
+  color: #86868b;
+}
+
+/*Fifth Section*/
+.Fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+  background-image: url("../images/home/tile__cauwwcyyn9hy_medium_2x.jpg");
+  background-color: #fbfbfd;
+  background-position: bottom;
+  padding-top: 35px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+}
+.Fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../images/home/promo_liseys_story.jpg");
+  background-color: #fbfbfd;
+  background-position: center;
+  padding-top: 35px;
+  margin: 10px 0 0 0;
+  background-size: cover;
+}
+
+.Fifth-heghlight-wrapper {
+  padding-bottom: 40px;
+}
+.watch-more-wrapper a {
+  text-decoration: none;
+  font-size: 0.85em;
+  color: #fff;
+}
+.watch-more-wrapper a:after {
+  font-family: "FontAwesome";
+  font-weight: 900;
+  content: "\f144";
+  padding-left: 15px;
+}
+.tvshow-logo-wraper {
+  padding: 340px 0 0px;
+}
+.tv-logo{
+  padding-bottom: 20px;
+}
+
+
+/*Media Query*/
+@media (max-width: 768px) {
+  
+
+  /* First section */
+  .first-hightlight-wrapper {
+    background-image: url("../images/home/iphone_12_updated__jepm2xpxncuy_small_2x.jpg"); 
+    min-height: 530px;
+   
+ }
+ .ipod-caption {
+   padding-top: 415px;
+ }
+ 
+ .title-wraper.bold {
+   font-size: 30px;
+ }
+
+ .title-wraper {
+   font-size: 30px;
+ }
+
+ .description-wrapper {
+   font-size: 18px;
+}
+
+.price-wrapper {
+ font-size: 14px;
+}
+
+ /* Second section */
+ .second-hightlight-wrapper {
+  min-height: 530px;
+  background-image: url("../images/home/hero_ipad_pro_non_avail__fcrsmhs4b7ma_small_2x.jpg");
+}
+.new-alert {
+  color: #bf4801;
+  font-size: 18px;
+}
+
+
+.second-2-hightlight-wrapper {
+  background-image: url("../image-1/home/iphone_12_pro_us__e5oyysg4k0ya_small_2x.jpg");
+  min-height: 680px;
+
+}
+
+  /* Third section */
+.third-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../images/home/promo_imac__crg.jpg");
+}
+.Forth-heghlight-wrapper .right-side-wrapper .right-side-container {
+  background-image: url("../image-1/promos/tile__change_small.jpg");
+}
+
+.third-heghlight-wrapper .right-side-wrapper .title-wraper{
+  font-size: 30px;
+}
+
+.third-heghlight-wrapper .left-side-wrapper .title-wraper{
+  font-size: 30px;
+}
+
+/*fourth section*/
+  
+.fourth-heghlight-wrapper .left-side-wrapper .left-side-container {
+  margin: 10px 5px 5px 10px;
+}
+.fourth-heghlight-wrapper .right-side-wrapper .right-side-container {
+  margin: 10px 10px 5px 5px;
+}
+
+ /*Fifth section*/
+  .fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
+    margin: 5px 5px 5px 10px;
+  }
+  .fifth-heghlight-wrapper .right-side-wrapper .right-side-container {
+    margin: 5px 10px 5px 5px;
+  }
+  
+ 
+}
+
+@media (min-width: 992px) {
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+  .footer-country {
+    margin-top: 10px;
+  }
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+  
+}
+
+@media (max-width: 992px){
+
+  /* Third section */
+  .third-heghlight-wrapper .right-side-wrapper .right-side-container {
+    background-image: url("../images/home/promo_imac__crg.jpg");
+  }
+} 
+
+
+
